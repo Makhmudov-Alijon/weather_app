@@ -3,12 +3,15 @@ PODS:
     - Flutter
     - FlutterMacOS
   - Flutter (1.0.0)
+  - flutter_open_app_settings (0.0.1):
+    - Flutter
   - geolocator_apple (1.2.0):
     - Flutter
 
 DEPENDENCIES:
   - connectivity_plus (from `.symlinks/plugins/connectivity_plus/darwin`)
   - Flutter (from `Flutter`)
+  - flutter_open_app_settings (from `.symlinks/plugins/flutter_open_app_settings/ios`)
   - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
 
 EXTERNAL SOURCES:
@@ -16,12 +19,15 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/connectivity_plus/darwin"
   Flutter:
     :path: Flutter
+  flutter_open_app_settings:
+    :path: ".symlinks/plugins/flutter_open_app_settings/ios"
   geolocator_apple:
     :path: ".symlinks/plugins/geolocator_apple/ios"
 
 SPEC CHECKSUMS:
   connectivity_plus: 4c41c08fc6d7c91f63bc7aec70ffe3730b04f563
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_open_app_settings: 4b43abd61edc27ee4b6bee2dbc5ccc9033861d0f
   geolocator_apple: 9bcea1918ff7f0062d98345d238ae12718acfbc1
 
 PODFILE CHECKSUM: 71d74db83176b5bfd2a16cb4c1493d8c0fb72209
